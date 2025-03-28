@@ -1,29 +1,38 @@
 @media screen and (max-width:1024px) {
-    .comprehensive-card{
-        grid-template-columns: repeat(2,1fr);
+    .comprehensive-cards {
+        width: calc(50% - (50px * 1) / 2);
+    }
+    .comprehensive-cards:nth-child(2) {
+        transform: none;
     }
 }
 
-@media screen and (max-width:640px){
-    .comprehensive-card{
-        grid-template-columns: repeat(1,1fr);
-    }
+@media screen and (max-width:640px) {
     .comprehensive-heading {
         font-size: 20px;
     }
+
     .comprehensive-card-para {
         font-size: 16px;
     }
+
     .comprehensive-head {
         font-size: 30px;
-    }   
+    }
+    .comprehensive-cards {
+        width: 100%;
+    }
+    .comprehensive-cards:nth-child(2) {
+        transform: none;
+    }
 }
 
-@media screen and (max-width:575px){
-    .comprehensive-head{
+@media screen and (max-width:575px) {
+    .comprehensive-head {
         max-width: 500px;
     }
-    .comprehensive-head span{
+
+    .comprehensive-head span {
         display: inline;
     }
 }
