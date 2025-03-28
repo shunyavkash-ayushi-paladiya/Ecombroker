@@ -1,0 +1,29 @@
+@media screen and (max-width:1024px) {
+    .comprehensive-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:640px){
+    .comprehensive-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .comprehensive-heading {
+        font-size: 20px;
+    }
+    .comprehensive-card-para {
+        font-size: 16px;
+    }
+    .comprehensive-head {
+        font-size: 30px;
+    }   
+}
+
+@media screen and (max-width:575px){
+    .comprehensive-head{
+        max-width: 500px;
+    }
+    .comprehensive-head span{
+        display: inline;
+    }
+}

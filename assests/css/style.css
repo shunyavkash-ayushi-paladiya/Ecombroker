@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary:#000000 ;
+    --secondary:#ffffff ;
+    --ternary:#7DBE2F ;
+    --forth: #5AA116;
+    --fifth:#D9D9D9 ;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+} 
+
+button{
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: currentColor;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1252px;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.comprehensive-head{
+    font-size:40px ;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.comprehensive-head span {
+    background: linear-gradient(to right, rgba(125, 190, 47, 1), rgba(90, 161, 22, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+
+.comprehensive-inner{
+    margin-top: 100px;
+}
+
+.comprehensive-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 166%;
+    color: var(--primary);
+    max-width: 1252px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+.comprehensive-cards{
+    background-color: var(--primary);
+    border-radius: 18px;
+    border: 1px solid var(--primary);
+    margin-top: 50px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 48px;
+    padding-bottom: 61px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden ;
+}
+
+.comprehensive-img{
+  background-color: #3DFFBC1F;
+  border: 1px solid #3DFFBC1F;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 88px;
+  height: 84px;
+  margin: 0 auto;
+  color: var(--forth);
+  transition: all 0.3s ease-in-out;
+}
+
+.comprehensive-img img{
+    width: 65px;
+    height: 65px;
+}
+
+.comprehensive-heading{
+    font-size:26px ;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--secondary);
+    margin-top: 25px;
+}
+
+.comprehensive-card-para{
+    max-width: 285px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--secondary);
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.comprehensive-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.comprehensive-cards:hover{
+    background-color: var(--forth);
+    border: 1px solid var(--forth);
+    transform: scale(1.1);
+} 
+
+.comprehensive-cards:hover .comprehensive-img{
+    color: var(--secondary);
+}
