@@ -2,6 +2,7 @@
     .comprehensive-cards {
         width: calc(50% - (50px * 1) / 2);
     }
+
     .comprehensive-cards:nth-child(2) {
         transform: none;
     }
@@ -19,9 +20,11 @@
     .comprehensive-head {
         font-size: 30px;
     }
+
     .comprehensive-cards {
         width: 100%;
     }
+
     .comprehensive-cards:nth-child(2) {
         transform: none;
     }
