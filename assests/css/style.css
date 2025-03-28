@@ -138,8 +138,8 @@ img {
 }
 
 .comprehensive-cards:nth-child(2) {
-    background-color: var(--forth);
-    border: 1px solid var(--forth);
+    background-color: var(--ternary);
+    border: 1px solid var(--ternary);
     transform: scale(1.1);
 }
 
@@ -158,8 +158,8 @@ img {
 }
 
 .comprehensive-card .comprehensive-cards:hover {
-    background-color: var(--forth);
-    border: 1px solid var(--forth);
+    background-color: var(--ternary);
+    border: 1px solid var(--ternary);
     transform: scale(1.1);
 }
 
