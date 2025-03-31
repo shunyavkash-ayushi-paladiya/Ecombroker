@@ -1,41 +1,33 @@
 @media screen and (max-width:1024px) {
-    .comprehensive-cards {
+    .service-card {
         width: calc(50% - (50px * 1) / 2);
     }
 
-    .comprehensive-cards:nth-child(2) {
+    .service-card:nth-child(2) {
         transform: none;
     }
 }
 
 @media screen and (max-width:640px) {
-    .comprehensive-heading {
-        font-size: 20px;
-    }
-
-    .comprehensive-card-para {
-        font-size: 16px;
-    }
-
-    .comprehensive-head {
+    .services-heading {
         font-size: 30px;
     }
 
-    .comprehensive-cards {
+    .service-card-desc {
+        font-size: 16px;
+    }
+
+    .service-card {
         width: 100%;
     }
 
-    .comprehensive-cards:nth-child(2) {
+    .service-card:nth-child(2) {
         transform: none;
     }
 }
 
 @media screen and (max-width:575px) {
-    .comprehensive-head {
+    .services-heading {
         max-width: 500px;
-    }
-
-    .comprehensive-head span {
-        display: inline;
     }
 }
